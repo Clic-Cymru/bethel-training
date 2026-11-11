@@ -40,12 +40,12 @@
 /* bethel-fit-768 — Chromebook 1366 × 768 presentation mode */
 @media (min-width: 960px) {
   html, body { height:100%; overflow:hidden; }
-  .app { height:100dvh; max-height:100dvh; display:flex; flex-direction:column; overflow:hidden; padding:8px 18px 8px; }
+  .app { height:100dvh; max-height:100dvh; display:flex; flex-direction:column; overflow:hidden; padding:8px 18px 62px; }
   .top { flex:0 0 auto; min-height:46px; }
   .club-crest {width:46px;height:43px;}
   .progress {flex:0 0 auto;margin:5px 0 7px;height:4px;}
   .slide.active {flex:1 1 auto;min-height:0;overflow:hidden;margin:0;}
-  .footer {flex:0 0 auto;margin-top:5px;min-height:43px;}
+  .footer {position:fixed;left:0;right:0;bottom:0;z-index:100;display:flex;justify-content:flex-end;align-items:center;min-height:54px;margin:0;padding:5px 18px;background:#e9f5ff;border-top:1px solid #b8d9f2;box-shadow:0 -3px 12px #164b7512;}
   .panel {padding:12px 15px;border-radius:13px;}
   .slide h1 {margin:5px 0 9px;}
   .slide h2 {font-size:clamp(1.6rem,2.25vw,2.15rem);margin:2px 0 8px;}
